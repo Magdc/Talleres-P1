@@ -12,4 +12,5 @@ def home(request):
 
 
 def about(request):
-    return HttpResponse('<h2> Estoy usando el about</h2>')
+    #return HttpResponse('<h2> Estoy usando el about</h2>')
+    return render(request, 'about.html')
